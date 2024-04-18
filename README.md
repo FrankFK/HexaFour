@@ -4,4 +4,4 @@ This repository is part of my HexaFour blog series. You can find an overview in 
 
 The code in the subdirectories of this repository matches the following blog articles.
 
-* HexaFourV01 - TBD
+* HexaFourV01 - [Clean Code with YAGNI, KISS, SRP, SoC and IOSP, an Example (h4-10)](https://frank.woopec.net/2024/04/18/hexafour-10-clean-code.html)
