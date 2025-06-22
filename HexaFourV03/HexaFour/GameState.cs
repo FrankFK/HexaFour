@@ -37,6 +37,10 @@ namespace HexaFour
             return _tokens[row, column];
         }
 
+        /// <summary>
+        /// Check whether there is a diagonal row of <paramref name="count"/> tokens from 
+        /// player number <paramref name="playerNumber"/> on the board.
+        /// </summary>
         public bool PlayerHasConsecutiveTokens(int playerNumber, int count)
         {
             for (int row = MaxRow; row >= count - 1; row--)
@@ -68,6 +72,5 @@ namespace HexaFour
             }
             return true;
         }
-
     }
 }
